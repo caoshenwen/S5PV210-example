@@ -1,0 +1,522 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALIGN	lib/div64.S	/^#define ALIGN		.align 4,0x90	$/;"	d
+ALIGN	lib/lib1funcs.S	/^#define ALIGN		.align 4,0x90$/;"	d
+APLL_CON0_OFFSET	clock.c	8;"	d	file:
+APLL_CON1_OFFSET	clock.c	9;"	d	file:
+APLL_LOCK_OFFSET	clock.c	5;"	d	file:
+APLL_MDIV	clock.c	36;"	d	file:
+APLL_PDIV	clock.c	37;"	d	file:
+APLL_SDIV	clock.c	38;"	d	file:
+APLL_VAL	clock.c	45;"	d	file:
+AR	Makefile	/^AR		= arm-linux-ar$/;"	m
+BITS_PER_UNIT	include/gcclib.h	4;"	d
+BUFSIZE	mkv210_image.c	13;"	d	file:
+CC	Makefile	/^CC		= arm-linux-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS		:= -Wall -O2 -fno-builtin$/;"	m
+CLK_DIV0_MASK	clock.c	31;"	d	file:
+CLK_DIV0_OFFSET	clock.c	22;"	d	file:
+CLK_DIV1_OFFSET	clock.c	23;"	d	file:
+CLK_DIV2_OFFSET	clock.c	24;"	d	file:
+CLK_DIV3_OFFSET	clock.c	25;"	d	file:
+CLK_DIV4_OFFSET	clock.c	26;"	d	file:
+CLK_DIV5_OFFSET	clock.c	27;"	d	file:
+CLK_DIV6_OFFSET	clock.c	28;"	d	file:
+CLK_DIV7_OFFSET	clock.c	29;"	d	file:
+CLK_SRC0_OFFSET	clock.c	12;"	d	file:
+CLK_SRC1_OFFSET	clock.c	13;"	d	file:
+CLK_SRC2_OFFSET	clock.c	14;"	d	file:
+CLK_SRC3_OFFSET	clock.c	15;"	d	file:
+CLK_SRC4_OFFSET	clock.c	16;"	d	file:
+CLK_SRC5_OFFSET	clock.c	17;"	d	file:
+CLK_SRC6_OFFSET	clock.c	18;"	d	file:
+CLK_SRC_MASK0_OFFSET	clock.c	19;"	d	file:
+CLK_SRC_MASK1_OFFSET	clock.c	20;"	d	file:
+CPPFLAGS	Makefile	/^CPPFLAGS	:= -nostdlib -nostdinc -I$(INCDIR)\/include$/;"	m
+CPUID_CACHETYPE	include/system.h	46;"	d
+CPUID_ID	include/system.h	45;"	d
+CPUID_TCM	include/system.h	47;"	d
+CPUID_TLBTYPE	include/system.h	48;"	d
+CPU_ARCH_ARMv3	include/system.h	9;"	d
+CPU_ARCH_ARMv4	include/system.h	10;"	d
+CPU_ARCH_ARMv4T	include/system.h	11;"	d
+CPU_ARCH_ARMv5	include/system.h	12;"	d
+CPU_ARCH_ARMv5T	include/system.h	13;"	d
+CPU_ARCH_ARMv5TE	include/system.h	14;"	d
+CPU_ARCH_ARMv5TEJ	include/system.h	15;"	d
+CPU_ARCH_ARMv6	include/system.h	16;"	d
+CPU_ARCH_UNKNOWN	include/system.h	8;"	d
+CR_A	include/system.h	22;"	d
+CR_B	include/system.h	28;"	d
+CR_C	include/system.h	23;"	d
+CR_D	include/system.h	26;"	d
+CR_DT	include/system.h	37;"	d
+CR_F	include/system.h	31;"	d
+CR_FI	include/system.h	40;"	d
+CR_I	include/system.h	33;"	d
+CR_IT	include/system.h	38;"	d
+CR_L	include/system.h	27;"	d
+CR_L4	include/system.h	36;"	d
+CR_M	include/system.h	21;"	d
+CR_P	include/system.h	25;"	d
+CR_R	include/system.h	30;"	d
+CR_RR	include/system.h	35;"	d
+CR_S	include/system.h	29;"	d
+CR_ST	include/system.h	39;"	d
+CR_U	include/system.h	41;"	d
+CR_V	include/system.h	34;"	d
+CR_VE	include/system.h	43;"	d
+CR_W	include/system.h	24;"	d
+CR_XP	include/system.h	42;"	d
+CR_Z	include/system.h	32;"	d
+DIstruct	include/gcclib.h	/^  struct DIstruct {SItype high, low;};$/;"	s
+DIstruct	include/gcclib.h	/^  struct DIstruct {SItype low, high;};$/;"	s
+DItype	include/gcclib.h	/^typedef          int DItype     __attribute__ ((mode (DI)));$/;"	t
+DIunion	include/gcclib.h	/^} DIunion;$/;"	t	typeref:union:__anon1
+ELFIN_CLOCK_POWER_BASE	clock.c	2;"	d	file:
+ENTRY	lib/div64.S	/^#define ENTRY(name) \\$/;"	d
+ENTRY	lib/lib1funcs.S	/^#define ENTRY(name) \\$/;"	d
+GPA0CON	uart.c	1;"	d	file:
+GPH0CON	key.c	4;"	d	file:
+GPH0DAT	key.c	5;"	d	file:
+GPH2CON	key.c	7;"	d	file:
+GPH2DAT	key.c	8;"	d	file:
+GPJ0CON	led.c	1;"	d	file:
+GPJ0DAT	led.c	2;"	d	file:
+IMG_SIZE	mkv210_image.c	14;"	d	file:
+INBUFSIZE	lib/printf.c	9;"	d	file:
+INCDIR	Makefile	/^INCDIR	:= $(shell pwd)$/;"	m
+INT_LIMIT	int.h	81;"	d
+INT_MAX	include/kernel.h	1;"	d
+INT_MIN	include/kernel.h	2;"	d
+IRQ_STACK	start.S	/^#define IRQ_STACK	0xd0037f80$/;"	d
+IRQ_handle	start.S	/^IRQ_handle:$/;"	l
+KEY_INTNUM	main.c	5;"	d	file:
+LARGE	lib/vsprintf.c	146;"	d	file:
+LD	Makefile	/^LD 		= arm-linux-ld$/;"	m
+LEFT	lib/vsprintf.c	144;"	d	file:
+LONG_MAX	include/kernel.h	4;"	d
+LONG_MIN	include/kernel.h	5;"	d
+Ldiv0	lib/lib1funcs.S	/^Ldiv0:$/;"	l
+MPLL_CON_OFFSET	clock.c	10;"	d	file:
+MPLL_LOCK_OFFSET	clock.c	6;"	d	file:
+MPLL_MDIV	clock.c	40;"	d	file:
+MPLL_PDIV	clock.c	41;"	d	file:
+MPLL_SDIV	clock.c	42;"	d	file:
+MPLL_VAL	clock.c	46;"	d	file:
+NATIVE_INT	lib/vsprintf.h	20;"	d
+NULL	include/types.h	6;"	d
+NUM_2D	int.h	161;"	d
+NUM_3D	int.h	162;"	d
+NUM_AC97	int.h	171;"	d
+NUM_ADC	int.h	175;"	d
+NUM_ADC1	int.h	195;"	d
+NUM_ALL	int.h	197;"	d
+NUM_AUDIO	int.h	136;"	d
+NUM_CEC	int.h	189;"	d
+NUM_CFC	int.h	127;"	d
+NUM_CORTEX0	int.h	118;"	d
+NUM_CORTEX1	int.h	119;"	d
+NUM_CORTEX2	int.h	120;"	d
+NUM_CORTEX3	int.h	121;"	d
+NUM_CORTEX4	int.h	122;"	d
+NUM_EINT0	int.h	84;"	d
+NUM_EINT1	int.h	85;"	d
+NUM_EINT10	int.h	94;"	d
+NUM_EINT11	int.h	95;"	d
+NUM_EINT12	int.h	96;"	d
+NUM_EINT13	int.h	97;"	d
+NUM_EINT14	int.h	98;"	d
+NUM_EINT15	int.h	99;"	d
+NUM_EINT16_31	int.h	100;"	d
+NUM_EINT2	int.h	86;"	d
+NUM_EINT3	int.h	87;"	d
+NUM_EINT4	int.h	88;"	d
+NUM_EINT5	int.h	89;"	d
+NUM_EINT6	int.h	90;"	d
+NUM_EINT7	int.h	91;"	d
+NUM_EINT8	int.h	92;"	d
+NUM_EINT9	int.h	93;"	d
+NUM_FEEDCTRL	int.h	180;"	d
+NUM_FIMC3	int.h	115;"	d
+NUM_FIMC_A	int.h	157;"	d
+NUM_FIMC_B	int.h	158;"	d
+NUM_FIMC_C	int.h	159;"	d
+NUM_GPIOINT	int.h	114;"	d
+NUM_HASH	int.h	179;"	d
+NUM_HDMI	int.h	164;"	d
+NUM_HDMI_I2C	int.h	165;"	d
+NUM_HOSTIF	int.h	187;"	d
+NUM_HSIRX	int.h	139;"	d
+NUM_HSITX	int.h	140;"	d
+NUM_HSMMC0	int.h	144;"	d
+NUM_HSMMC1	int.h	145;"	d
+NUM_HSMMC2	int.h	146;"	d
+NUM_HSMMC3	int.h	188;"	d
+NUM_I2C	int.h	132;"	d
+NUM_I2C_HDMI	int.h	138;"	d
+NUM_I2C_PMIC	int.h	137;"	d
+NUM_I2S0	int.h	168;"	d
+NUM_I2S1	int.h	169;"	d
+NUM_I2S2	int.h	170;"	d
+NUM_IEM_APC	int.h	123;"	d
+NUM_IEM_IEC	int.h	124;"	d
+NUM_IPC	int.h	186;"	d
+NUM_JPEG	int.h	160;"	d
+NUM_KEYPAD	int.h	177;"	d
+NUM_LCD0	int.h	152;"	d
+NUM_LCD1	int.h	153;"	d
+NUM_LCD2	int.h	154;"	d
+NUM_LCD3	int.h	155;"	d
+NUM_MDMA	int.h	102;"	d
+NUM_MDNIE0	int.h	191;"	d
+NUM_MDNIE1	int.h	192;"	d
+NUM_MDNIE2	int.h	193;"	d
+NUM_MDNIE3	int.h	194;"	d
+NUM_MFC	int.h	166;"	d
+NUM_MIPI_CSI	int.h	147;"	d
+NUM_MIPI_DSI	int.h	148;"	d
+NUM_MIXER	int.h	163;"	d
+NUM_MSM	int.h	143;"	d
+NUM_NFC	int.h	126;"	d
+NUM_ONENAND_AUDI	int.h	149;"	d
+NUM_OTG	int.h	142;"	d
+NUM_PCM0	int.h	172;"	d
+NUM_PCM1	int.h	173;"	d
+NUM_PCM2	int.h	181;"	d
+NUM_PDMA0	int.h	103;"	d
+NUM_PDMA1	int.h	104;"	d
+NUM_PENDN	int.h	176;"	d
+NUM_PENDN1	int.h	196;"	d
+NUM_ROTATOR	int.h	156;"	d
+NUM_RTC_ALARM	int.h	112;"	d
+NUM_RTC_TICK	int.h	113;"	d
+NUM_Reserved17	int.h	101;"	d
+NUM_Reserved39	int.h	125;"	d
+NUM_Reserved90	int.h	178;"	d
+NUM_SDM_IRQ	int.h	182;"	d
+NUM_SMD_FIQ	int.h	183;"	d
+NUM_SPDIF	int.h	174;"	d
+NUM_SPI0	int.h	133;"	d
+NUM_SPI1	int.h	134;"	d
+NUM_SPI2	int.h	135;"	d
+NUM_SYSTIMER	int.h	110;"	d
+NUM_TIMER0	int.h	105;"	d
+NUM_TIMER1	int.h	106;"	d
+NUM_TIMER2	int.h	107;"	d
+NUM_TIMER3	int.h	108;"	d
+NUM_TIMER4	int.h	109;"	d
+NUM_TSI	int.h	190;"	d
+NUM_TVENC	int.h	167;"	d
+NUM_UART0	int.h	128;"	d
+NUM_UART1	int.h	129;"	d
+NUM_UART2	int.h	130;"	d
+NUM_UART3	int.h	131;"	d
+NUM_UHOST	int.h	141;"	d
+NUM_WDT	int.h	111;"	d
+OBJCOPY	Makefile	/^OBJCOPY	= arm-linux-objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP	= arm-linux-objdump$/;"	m
+OUTBUFSIZE	lib/printf.c	8;"	d	file:
+PLUS	lib/vsprintf.c	142;"	d	file:
+REG_APLL_CON0	clock.c	53;"	d	file:
+REG_APLL_LOCK	clock.c	50;"	d	file:
+REG_CLK_DIV0	clock.c	52;"	d	file:
+REG_CLK_SRC0	clock.c	49;"	d	file:
+REG_MPLL_CON	clock.c	54;"	d	file:
+REG_MPLL_LOCK	clock.c	51;"	d	file:
+SIGN	lib/vsprintf.c	141;"	d	file:
+SI_TYPE_SIZE	include/gcclib.h	5;"	d
+SItype	include/gcclib.h	/^typedef          int SItype     __attribute__ ((mode (SI)));$/;"	t
+SPACE	lib/vsprintf.c	143;"	d	file:
+SPECIAL	lib/vsprintf.c	145;"	d	file:
+SPL_HEADER	mkv210_image.c	17;"	d	file:
+SPL_HEADER_SIZE	mkv210_image.c	15;"	d	file:
+SVC_STACK	start.S	/^#define SVC_STACK	0xd0037d80$/;"	d
+UBRDIV0	uart.c	6;"	d	file:
+UCON0	uart.c	2;"	d	file:
+UDBG_BADABORT	include/system.h	124;"	d
+UDBG_BUS	include/system.h	126;"	d
+UDBG_SEGV	include/system.h	125;"	d
+UDBG_SYSCALL	include/system.h	123;"	d
+UDBG_UNDEFINED	include/system.h	122;"	d
+UDIVSLOT0	uart.c	7;"	d	file:
+UDItype	include/gcclib.h	/^typedef unsigned int UDItype    __attribute__ ((mode (DI)));$/;"	t
+UFCON0	uart.c	5;"	d	file:
+UINT_MAX	include/kernel.h	3;"	d
+ULCON0	uart.c	3;"	d	file:
+ULONG_MAX	include/kernel.h	6;"	d
+UMCON0	uart.c	4;"	d	file:
+UQItype	include/gcclib.h	/^typedef unsigned int UQItype    __attribute__ ((mode (QI)));$/;"	t
+URXH0	uart.c	10;"	d	file:
+USItype	include/gcclib.h	/^typedef unsigned int USItype    __attribute__ ((mode (SI)));$/;"	t
+UTRSTAT0	uart.c	8;"	d	file:
+UTXH0	uart.c	9;"	d	file:
+VIC0ADDR	int.h	30;"	d
+VIC0FIQSTATUS	int.h	25;"	d
+VIC0INTENABLE	int.h	27;"	d
+VIC0INTENCLEAR	int.h	28;"	d
+VIC0INTSELECT	int.h	26;"	d
+VIC0IRQSTATUS	int.h	24;"	d
+VIC0VECTADDR	int.h	29;"	d
+VIC0_BASE	int.h	18;"	d
+VIC1ADDR	int.h	39;"	d
+VIC1FIQSTATUS	int.h	34;"	d
+VIC1INTENABLE	int.h	36;"	d
+VIC1INTENCLEAR	int.h	37;"	d
+VIC1INTSELECT	int.h	35;"	d
+VIC1IRQSTATUS	int.h	33;"	d
+VIC1VECTADDR	int.h	38;"	d
+VIC1_BASE	int.h	19;"	d
+VIC2ADDR	int.h	48;"	d
+VIC2FIQSTATUS	int.h	43;"	d
+VIC2INTENABLE	int.h	45;"	d
+VIC2INTENCLEAR	int.h	46;"	d
+VIC2INTSELECT	int.h	44;"	d
+VIC2IRQSTATUS	int.h	42;"	d
+VIC2VECTADDR	int.h	47;"	d
+VIC2_BASE	int.h	20;"	d
+VIC3ADDR	int.h	57;"	d
+VIC3FIQSTATUS	int.h	52;"	d
+VIC3INTENABLE	int.h	54;"	d
+VIC3INTENCLEAR	int.h	55;"	d
+VIC3INTSELECT	int.h	53;"	d
+VIC3IRQSTATUS	int.h	51;"	d
+VIC3VECTADDR	int.h	56;"	d
+VIC3_BASE	int.h	21;"	d
+WTCON	start.S	/^#define WTCON		0xE2700000$/;"	d
+ZEROPAD	lib/vsprintf.c	140;"	d	file:
+_ADNBND	lib/vsprintf.h	22;"	d
+_AUPBND	lib/vsprintf.h	21;"	d
+_C	include/ctype.h	9;"	d
+_D	include/ctype.h	8;"	d
+_L	include/ctype.h	7;"	d
+_P	include/ctype.h	10;"	d
+_PRINTF_H	lib/printf.h	3;"	d
+_S	include/ctype.h	11;"	d
+_SIZE_T	include/types.h	10;"	d
+_SP	include/ctype.h	13;"	d
+_STDIO_H	include/stdio.h	3;"	d
+_TPYES_H	include/types.h	3;"	d
+_U	include/ctype.h	6;"	d
+_VALIST	include/stdio.h	8;"	d
+_VALIST	lib/vsprintf.h	13;"	d
+_X	include/ctype.h	12;"	d
+__ASM_ARM_DIV64	lib/div64.h	2;"	d
+__ASM_ARM_SYSTEM_H	include/system.h	2;"	d
+__INT_H__	int.h	2;"	d
+__LINUX_ARM_ARCH__	lib/div64.S	/^#define __LINUX_ARM_ARCH__  1$/;"	d
+__LINUX_ARM_ARCH__	lib/lib1funcs.S	/^#define __LINUX_ARM_ARCH__  1$/;"	d
+___strtok	lib/string.c	/^char * ___strtok;$/;"	v
+__asmeq	include/system.h	68;"	d
+__asmeq	lib/div64.h	30;"	d
+__ismask	include/ctype.h	17;"	d
+__muldi3	lib/muldi3.c	/^__muldi3 (DItype u, DItype v)$/;"	f
+__tolower	include/ctype.h	/^static inline unsigned char __tolower(unsigned char c)$/;"	f
+__toupper	include/ctype.h	/^static inline unsigned char __toupper(unsigned char c)$/;"	f
+__umulsidi3	lib/muldi3.c	56;"	d	file:
+__xchg	include/system.h	/^static inline unsigned long __xchg(unsigned long x, volatile void *ptr, int size)$/;"	f
+__xh	lib/div64.h	23;"	d
+__xh	lib/div64.h	27;"	d
+__xl	lib/div64.h	24;"	d
+__xl	lib/div64.h	26;"	d
+_bnd	lib/vsprintf.h	28;"	d
+_ctype	lib/ctype.c	/^unsigned char _ctype[] = {$/;"	v
+_start	start.S	/^_start:$/;"	l
+bcopy	lib/string.c	/^void bcopy(const void *src, void *dest, size_t count)$/;"	f
+clock_init	clock.c	/^void clock_init(void)$/;"	f
+data_exception	int.c	/^void data_exception(void)$/;"	f
+delay	led.c	/^void delay(void)$/;"	f
+delay20ms	key.c	/^void delay20ms(void)$/;"	f
+do_div	lib/div64.h	32;"	d
+exception_data	int.h	65;"	d
+exception_fiq	int.h	67;"	d
+exception_irq	int.h	66;"	d
+exception_prefetch	int.h	64;"	d
+exception_reset	int.h	61;"	d
+exception_sotf_int	int.h	63;"	d
+exception_undef	int.h	62;"	d
+exception_vector_table_base	int.h	60;"	d
+finish_arch_switch	include/system.h	157;"	d
+finish_arch_switch	include/system.h	169;"	d
+g_pcInBuf	lib/printf.c	/^static char g_pcInBuf[INBUFSIZE];$/;"	v	file:
+g_pcOutBuf	lib/printf.c	/^static char g_pcOutBuf[OUTBUFSIZE];$/;"	v	file:
+get_cr	include/system.h	110;"	d
+getc	uart.c	/^char getc(void)$/;"	f
+high	include/gcclib.h	/^  struct DIstruct {SItype high, low;};$/;"	m	struct:DIstruct
+high	include/gcclib.h	/^  struct DIstruct {SItype low, high;};$/;"	m	struct:DIstruct
+intc_clearvectaddr	int.c	/^void intc_clearvectaddr(void)$/;"	f
+intc_disable	int.c	/^void intc_disable(unsigned long intnum)$/;"	f
+intc_enable	int.c	/^void intc_enable(unsigned long intnum)$/;"	f
+intc_getvicirqstatus	int.c	/^unsigned long intc_getvicirqstatus(unsigned long ucontroller)$/;"	f
+intc_init	int.c	/^void intc_init(void)$/;"	f
+intc_setvectaddr	int.c	/^void intc_setvectaddr(unsigned long intnum, void (*handler)(void))$/;"	f
+irq_handler	int.c	/^void irq_handler(void)$/;"	f
+irqs_disabled	include/system.h	303;"	d
+isalnum	include/ctype.h	19;"	d
+isalpha	include/ctype.h	20;"	d
+isascii	include/ctype.h	31;"	d
+iscntrl	include/ctype.h	21;"	d
+isdigit	include/ctype.h	22;"	d
+isgraph	include/ctype.h	23;"	d
+islower	include/ctype.h	24;"	d
+isprint	include/ctype.h	25;"	d
+ispunct	include/ctype.h	26;"	d
+isspace	include/ctype.h	27;"	d
+isupper	include/ctype.h	28;"	d
+isxdigit	include/ctype.h	29;"	d
+key_init	key.c	/^void key_init(void)$/;"	f
+key_isr	main.c	/^void key_isr(void)$/;"	f
+key_polling	key.c	/^void key_polling(void)$/;"	f
+led1	led.c	/^void led1(void)$/;"	f
+led2	led.c	/^void led2(void)$/;"	f
+led3	led.c	/^void led3(void)$/;"	f
+led_blink	led.c	/^void led_blink(void)$/;"	f
+led_off	led.c	/^void led_off(void)$/;"	f
+ll	include/gcclib.h	/^  DItype ll;$/;"	m	union:__anon1
+local_fiq_disable	include/system.h	201;"	d
+local_fiq_disable	include/system.h	269;"	d
+local_fiq_enable	include/system.h	200;"	d
+local_fiq_enable	include/system.h	254;"	d
+local_irq_disable	include/system.h	199;"	d
+local_irq_disable	include/system.h	239;"	d
+local_irq_enable	include/system.h	198;"	d
+local_irq_enable	include/system.h	224;"	d
+local_irq_restore	include/system.h	296;"	d
+local_irq_save	include/system.h	190;"	d
+local_irq_save	include/system.h	208;"	d
+local_save_flags	include/system.h	286;"	d
+low	include/gcclib.h	/^  struct DIstruct {SItype high, low;};$/;"	m	struct:DIstruct
+low	include/gcclib.h	/^  struct DIstruct {SItype low, high;};$/;"	m	struct:DIstruct
+main	main.c	/^int main(void)$/;"	f
+main	mkv210_image.c	/^int main (int argc, char *argv[])$/;"	f
+mb	include/system.h	136;"	d
+memchr	lib/string.c	/^void *memchr(const void *s, int c, size_t n)$/;"	f
+memcmp	lib/string.c	/^int memcmp(const void * cs,const void * ct,size_t count)$/;"	f
+memcpy	lib/string.c	/^void * memcpy(void * dest,const void *src,size_t count)$/;"	f
+memmove	lib/string.c	/^void * memmove(void * dest,const void *src,size_t count)$/;"	f
+memscan	lib/string.c	/^void * memscan(void * addr, int c, size_t size)$/;"	f
+memset	lib/string.c	/^void * memset(void * s,int c,size_t count)$/;"	f
+name	lib/div64.S	/^  name:$/;"	l
+name	lib/lib1funcs.S	/^  name:$/;"	l
+nop	include/system.h	142;"	d
+number	lib/vsprintf.c	/^static char * number(char * buf, char * end, unsigned long long num, int base, int size, int precision, int type)$/;"	f	file:
+objs	Makefile	/^objs := start.o led.o clock.o uart.o main.o int.o key.o$/;"	m
+objs	lib/Makefile	/^objs := div64.o lib1funcs.o ctype.o muldi3.o printf.o string.o vsprintf.o$/;"	m
+prefetch_exception	int.c	/^void prefetch_exception(void)$/;"	f
+prepare_arch_switch	include/system.h	151;"	d
+prepare_arch_switch	include/system.h	168;"	d
+printf	lib/printf.c	/^int printf(const char *fmt, ...)$/;"	f
+putc	uart.c	/^void putc(char c)$/;"	f
+rGPA0CON	uart.c	12;"	d	file:
+rGPH0CON	key.c	10;"	d	file:
+rGPH0DAT	key.c	11;"	d	file:
+rGPH2CON	key.c	12;"	d	file:
+rGPH2DAT	key.c	13;"	d	file:
+rGPJ0CON	led.c	4;"	d	file:
+rGPJ0DAT	led.c	5;"	d	file:
+rREG_APLL_CON0	clock.c	60;"	d	file:
+rREG_APLL_LOCK	clock.c	57;"	d	file:
+rREG_CLK_DIV0	clock.c	59;"	d	file:
+rREG_CLK_SRC0	clock.c	56;"	d	file:
+rREG_MPLL_CON	clock.c	61;"	d	file:
+rREG_MPLL_LOCK	clock.c	58;"	d	file:
+rUBRDIV0	uart.c	17;"	d	file:
+rUCON0	uart.c	13;"	d	file:
+rUDIVSLOT0	uart.c	18;"	d	file:
+rUFCON0	uart.c	16;"	d	file:
+rULCON0	uart.c	14;"	d	file:
+rUMCON0	uart.c	15;"	d	file:
+rURXH0	uart.c	21;"	d	file:
+rUTRSTAT0	uart.c	19;"	d	file:
+rUTXH0	uart.c	20;"	d	file:
+r_exception_data	int.h	73;"	d
+r_exception_fiq	int.h	75;"	d
+r_exception_irq	int.h	74;"	d
+r_exception_prefetch	int.h	72;"	d
+r_exception_reset	int.h	69;"	d
+r_exception_sotf_int	int.h	71;"	d
+r_exception_undef	int.h	70;"	d
+read_barrier_depends	include/system.h	139;"	d
+read_cpuid	include/system.h	50;"	d
+reset_exception	int.c	/^void reset_exception(void)$/;"	f
+rmb	include/system.h	137;"	d
+s	include/gcclib.h	/^  struct DIstruct s;$/;"	m	union:__anon1	typeref:struct:__anon1::DIstruct
+scanf	lib/printf.c	/^int scanf(const char * fmt, ...)$/;"	f
+scnprintf	lib/vsprintf.c	/^int scnprintf(char * buf, size_t size, const char *fmt, ...)$/;"	f
+set_cr	include/system.h	105;"	d
+set_mb	include/system.h	140;"	d
+set_pll	clock.c	44;"	d	file:
+set_wmb	include/system.h	141;"	d
+simple_strtol	lib/vsprintf.c	/^long simple_strtol(const char *cp,char **endp,unsigned int base)$/;"	f
+simple_strtoll	lib/vsprintf.c	/^long long simple_strtoll(const char *cp,char **endp,unsigned int base)$/;"	f
+simple_strtoul	lib/vsprintf.c	/^unsigned long simple_strtoul(const char *cp,char **endp,unsigned int base)$/;"	f
+simple_strtoull	lib/vsprintf.c	/^unsigned long long simple_strtoull(const char *cp,char **endp,unsigned int base)$/;"	f
+size_t	include/types.h	/^typedef unsigned int size_t;$/;"	t
+skip_atoi	lib/vsprintf.c	/^static int skip_atoi(const char **s)$/;"	f	file:
+smp_mb	include/system.h	313;"	d
+smp_mb	include/system.h	320;"	d
+smp_read_barrier_depends	include/system.h	316;"	d
+smp_read_barrier_depends	include/system.h	323;"	d
+smp_rmb	include/system.h	314;"	d
+smp_rmb	include/system.h	321;"	d
+smp_wmb	include/system.h	315;"	d
+smp_wmb	include/system.h	322;"	d
+snprintf	lib/vsprintf.c	/^int snprintf(char * buf, size_t size, const char *fmt, ...)$/;"	f
+sotf_int_exception	int.c	/^void sotf_int_exception(void)$/;"	f
+sprintf	lib/vsprintf.c	/^int sprintf(char * buf, const char *fmt, ...)$/;"	f
+sscanf	lib/vsprintf.c	/^int sscanf(const char * buf, const char * fmt, ...)$/;"	f
+strcat	lib/string.c	/^char * strcat(char * dest, const char * src)$/;"	f
+strchr	lib/string.c	/^char * strchr(const char * s, int c)$/;"	f
+strcmp	lib/string.c	/^int strcmp(const char * cs,const char * ct)$/;"	f
+strcpy	lib/string.c	/^char * strcpy(char * dest,const char *src)$/;"	f
+strlen	lib/string.c	/^size_t strlen(const char * s)$/;"	f
+strncat	lib/string.c	/^char * strncat(char *dest, const char *src, size_t count)$/;"	f
+strncmp	lib/string.c	/^int strncmp(const char * cs,const char * ct,size_t count)$/;"	f
+strncpy	lib/string.c	/^char * strncpy(char * dest,const char *src,size_t count)$/;"	f
+strnicmp	lib/string.c	/^int strnicmp(const char *s1, const char *s2, size_t len)$/;"	f
+strnlen	lib/string.c	/^size_t strnlen(const char * s, size_t count)$/;"	f
+strpbrk	lib/string.c	/^char * strpbrk(const char * cs,const char * ct)$/;"	f
+strrchr	lib/string.c	/^char * strrchr(const char * s, int c)$/;"	f
+strsep	lib/string.c	/^char * strsep(char **s, const char *ct)$/;"	f
+strspn	lib/string.c	/^size_t strspn(const char *s, const char *accept)$/;"	f
+strstr	lib/string.c	/^char * strstr(const char * s1,const char * s2)$/;"	f
+strtok	lib/string.c	/^char * strtok(char * s,const char * ct)$/;"	f
+switch_to	include/system.h	180;"	d
+swp_is_buggy	include/system.h	338;"	d
+system_init_exception	int.c	/^void system_init_exception(void)$/;"	f
+tas	include/system.h	99;"	d
+task_running	include/system.h	160;"	d
+task_running	include/system.h	170;"	d
+toascii	include/ctype.h	32;"	d
+tolower	include/ctype.h	48;"	d
+toupper	include/ctype.h	49;"	d
+uart_init	uart.c	/^void uart_init(void)$/;"	f
+umul_ppmm	lib/muldi3.c	34;"	d	file:
+undef_exception	int.c	/^void undef_exception(void)$/;"	f
+unlikely	lib/vsprintf.c	29;"	d	file:
+va_arg	lib/vsprintf.h	29;"	d
+va_end	lib/vsprintf.h	30;"	d
+va_list	include/stdio.h	/^typedef char *va_list;$/;"	t
+va_list	lib/vsprintf.h	/^typedef char *va_list;$/;"	t
+va_start	lib/vsprintf.h	31;"	d
+vectors_high	include/system.h	131;"	d
+vectors_high	include/system.h	133;"	d
+vscnprintf	lib/vsprintf.c	/^int vscnprintf(char *buf, size_t size, const char *fmt, va_list args)$/;"	f
+vsnprintf	lib/vsprintf.c	/^int vsnprintf(char *buf, size_t size, const char *fmt, va_list args)$/;"	f
+vsprintf	lib/vsprintf.c	/^int vsprintf(char *buf, const char *fmt, va_list args)$/;"	f
+vsscanf	lib/vsprintf.c	/^int vsscanf(const char * buf, const char * fmt, va_list args)$/;"	f
+wmb	include/system.h	138;"	d
+word_type	include/gcclib.h	/^typedef          int word_type 	__attribute__ ((mode (__word__)));$/;"	t
+xchg	include/system.h	96;"	d
+xh	lib/div64.S	/^#define xh r0$/;"	d
+xh	lib/div64.S	/^#define xh r1$/;"	d
+xl	lib/div64.S	/^#define xl r0$/;"	d
+xl	lib/div64.S	/^#define xl r1$/;"	d
+yh	lib/div64.S	/^#define yh r2$/;"	d
+yh	lib/div64.S	/^#define yh r3$/;"	d
+yl	lib/div64.S	/^#define yl r2$/;"	d
+yl	lib/div64.S	/^#define yl r3$/;"	d
